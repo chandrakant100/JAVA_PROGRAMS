@@ -1,2 +1,2 @@
 # JAVA_PROGRAMS
-![ ](https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png | width=50)
+![ ](https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg)
