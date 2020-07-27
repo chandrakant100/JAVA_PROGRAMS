@@ -4,16 +4,16 @@ class Complex2{
 
         int a,b;
 
-    Complex2()
+    Complex2(int num)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("---|numbers is in the form a+bi|---");
 
-        System.out.println("Enter the value of a:");
+        System.out.println("Enter the value of a(real)"+num+":");
         a=sc.nextInt();
-        System.out.println("Enter the value of b:");
+        System.out.println("Enter the value of b(imaginary)"+num+":");
         b=sc.nextInt();
-        sc.close(); 
+     	
     }
     Complex2(Complex2 obj1,Complex2 obj2)
     {
@@ -26,8 +26,8 @@ class Complex2{
     }
     public static void main(String[] args)
     {   
-        Complex2 obj1=new Complex2();
-        Complex2 obj2=new Complex2();
+        Complex2 obj1=new Complex2(1);
+        Complex2 obj2=new Complex2(2);
         Complex2 obj3=new Complex2(obj1,obj2);
         obj3.display();
     
