@@ -8,18 +8,17 @@ class Empl
     float salary;
     Empl()
     {
-            Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
 
-            System.out.println("-----Enter the Data of Emp:\n-----");
-           System.out.println("Name:");
-            name=sc.nextLine();
-           System.out.println("Age:");
-            age=sc.nextInt();
-           System.out.println("salary:");
-           salary=sc.nextFloat();
+        System.out.println("-----Enter the Data of Emp:\n-----");
+        System.out.println("Name:");
+        name=sc.nextLine();
+        System.out.println("Age:");
+        age=sc.nextInt();
+        System.out.println("salary:");
+        salary=sc.nextFloat();
 
-           sc.close();
-
+        sc.close();
     }
     void display()
     {
@@ -34,6 +33,4 @@ class Empl
         Emp obj=new Emp();
         obj.display();
     }
-
-
 }
