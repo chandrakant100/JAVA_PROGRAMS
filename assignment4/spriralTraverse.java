@@ -1,3 +1,20 @@
+/*
+Question: Spiral traversal of array/ Spiral fill of array
+Example:
+
+		Spiral matrix of size 3*5
+
+		1	2	3	4	5
+        12	13	14	15	6
+		11	10	9	8	7
+
+Points to be noted:
+Visited array is used in spiral traversal is to keep track if an element was already visited.
+
+Traversal of a square matrix does require a visited array.
+
+*/
+
 import java.util.*;
 
 class spriralTraverse {

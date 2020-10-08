@@ -1,10 +1,28 @@
+/*
+Question: Zigzag traversal of array
+Example:
+		Input:
+		int [][]a = {
+					{1, 2, 3},
+					{4, 5, 6},
+					{7, 8, 9}
+					};
+		Output:
+		1 4 2 3 5 7 8 6 9
+
+Approach: Pure Intution Problem. Just have to figure when to move up and
+		  when to move down.
+
+*/
+
+
 class ZigZag {
 
 	static void zigzagTraverse(int [][]a, int n, int m) {
 		int row = 0, col = 0;
 		boolean goingDown = true;
 		while (!OutOfBound(row, col, n, m)) {
-			System.out.println(a[row][col]);
+			System.out.print(a[row][col] + " ");
 			if (goingDown) {
 				if (col == 0 || row == n - 1) {
 					goingDown = false;

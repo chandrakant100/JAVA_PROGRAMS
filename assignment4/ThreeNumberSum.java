@@ -1,8 +1,23 @@
+/*
+Question: Given an array. Find all subsets of the array of size 3 with sum
+equal to given number k.
+Example:
+		Input:
+		int k = 9;
+		int []a = {1, 3, 5, 3, 2};
+
+		Output:
+		1 3 5
+
+Approach: Same as TwoNumberSum problem with a extra loop. Intution is to find
+		  subset of size 2 with sum equal to k-a[i].
+*/
+
 import java.util.Arrays;
 
 class ThreeNumberSum {
 
-	// **** sort Array first -> o(n^2) approach ****
+	// sort Array first -> o(n^2) approach
 	public static void main(String[] args) {
 		int n = 5;
 		int k = 9;

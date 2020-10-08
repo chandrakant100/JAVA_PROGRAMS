@@ -1,4 +1,21 @@
+/*
+Question: Given an array. Find all subsets of the array of size 2 with sum
+equal to given number k.
+Example:
+		Input:
+		int k = 5;
+		int a[] = {2, 3, 4, 5, 1};
+
+		Output:
+		3 2
+		4 1
+
+Approach 1: Using HashSet O(n) time O(n) space
+Approach 2: Using Two Pointers O(n) time and O(1) space
+*/
+
 import java.util.Arrays;
+import java.util.HashSet;
 
 class TwoNumberSum {
 
