@@ -11,7 +11,7 @@ Example:
 Points to be noted:
 Visited array is used in spiral traversal is to keep track if an element was already visited.
 
-Traversal of a square matrix does require a visited array.
+Traversal of a square matrix does not require a visited array.
 
 */
 
