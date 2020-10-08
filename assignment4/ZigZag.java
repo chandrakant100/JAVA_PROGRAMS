@@ -3,10 +3,10 @@ Question: Zigzag traversal of array
 Example:
 		Input:
 		int [][]a = {
-					{1, 2, 3},
-					{4, 5, 6},
-					{7, 8, 9}
-					};
+			      {1, 2, 3},
+			      {4, 5, 6},
+			      {7, 8, 9}
+			    };
 		Output:
 		1 4 2 3 5 7 8 6 9
 
